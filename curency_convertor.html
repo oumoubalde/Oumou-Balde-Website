@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- This website template was created by Balde -->
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<title>Oumou Balde Personal Website </title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+<div id="container">
+	<!-- Use the header area for the website name  or logo -->
+	<header>
+	  <h1 id="title">Oumou Balde Website</h1>
+	</header>
+	
+	<!-- Use the  navigation (nav) area to add hyperlinks to other pages within the website -->
+	<nav>
+		<a href="index.html">Home</a> &nbsp; &nbsp;
+		<a href="coin_tossing_game.html">Coin Tossing Game</a>&nbsp; &nbsp;
+		<a href="independence_day.html">Independence day</a>&nbsp; &nbsp;
+		<a href="curency_convertor.html">Curency Convertor</a>&nbsp; &nbsp;
+		<a href="place_to_visit.html">Place to Visit</a>&nbsp; &nbsp;
+		<a href="favorite_website.html">favorite Websites</a>&nbsp; &nbsp;
+		<a href="contact.html">Contact</a> 
+	</nav>
+	
+	<!-- Use the main area to add the main content of the webpage -->
+	<main>
+		<script type = "text/javascript">
+			<!--
+			// declaration of variable
+			var dollar; // amount entered by user
+			var constRate; // conversion rate
+			var usDollar; // amount convert in integer
+			var canadianDollar; // result in canadian Dollar
+			
+			// read the number from user as a sring
+			dollar = window.prompt(" Enter the us amount you want to convert" );
+			
+			// conversion rate
+			constRate = 1.34;
+			
+			//convert numbers from string to integers
+			usDollar = parseFloat( dollar);
+			
+			//calculate the amount in canadian money
+			canadianDollar = constRate * usDollar;
+			
+			//display the results
+			document.write( "<h1>The amount of " + "$" + usDollar + "- " + "is " + canadianDollar + " Canadaien Dollar" + "</h1>" );
+				// -->
+		</script>
+		<img src="us_dollars.jpg" alt="US Dollars" width="500px" height="400px" style="text-align:center"> &nbsp; 
+		<img src="canadien_dollar.jpeg" alt="picture of Canadien Dollar" width="500px" height="400px" style="text-align:center">
+	
+	</main>
+	
+	<!-- Use the footer area to add webpage footer content -->
+	<footer>
+		&copy; Copyright 2017. All Rights Reserved. <br>
+        Created by Oumou Balde On May 26, 2017. <br>
+		<a href="mailto:oumoubalde84@gmail.com">oumoubalde84@gmail.com</a>
+	
+	</footer>
+</div>
+</body>
+</html>

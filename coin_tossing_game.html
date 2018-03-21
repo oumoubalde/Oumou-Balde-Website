@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- This website template was created by Balde -->
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<title>Oumou Balde Personal Website </title>
+	<meta charset="utf-8">
+	
+</head>
+<body>
+
+<div id="container">
+	<!-- Use the header area for the website name  or logo -->
+	<header>
+	  <h1 id="title">Oumou Balde Website</h1>
+	</header>
+	
+	<!-- Use the  navigation (nav) area to add hyperlinks to other pages within the website -->
+	<nav>
+		<a href="index.html">Home</a> &nbsp; &nbsp;
+		<a href="coin_tossing_game.html">Coin Tossing Game</a>&nbsp; &nbsp;
+		<a href="independence_day.html">Independence day</a>&nbsp; &nbsp;
+		<a href="curency_convertor.html">Curency Convertor</a>&nbsp; &nbsp;
+		<a href="place_to_visit.html">Place to Visit</a>&nbsp; &nbsp;
+		<a href="favorite_website.html">Favorite Websites</a>&nbsp; &nbsp;
+		<a href="contact.html">Contact</a> 
+	</nav>
+	
+	<!-- Use the main area to add the main content of the webpage -->
+	<main>
+	<h2>Coin Tossing Game </h2>
+	
+		<script>
+		// Coin Tossing Game Solution
+			var heads = 0;
+			var tails = 0;
+					var x = 0;
+					
+					for ( var y = 1; y <= 100; y++)
+					{
+					x = Math.floor (Math.random() * 2)
+					if (x == 1)
+					heads++;
+					else
+					tails++;
+					}
+					document.writeln("The number of heads are " + heads + "<br>");
+					document.writeln("The number of tails are " + tails + "<br>");
+					
+		</script>
+		<img src="coin.jpg" alt="picture of coins" width="1000px" height="600px" style="text-align:center"> <br>
+
+		If you want to Play again Click <a href="coin_tossing_game.html">Coin Tossing Game</a> or Reload/Refresh the page
+	</main>
+	
+	<!-- Use the footer area to add webpage footer content -->
+	<footer>
+		&copy; Copyright 2017. All Rights Reserved. <br>
+        Created by Oumou Balde On May 26, 2017. <br>
+		<a href="mailto:oumoubalde84@gmail.com">oumoubalde84@gmail.com</a>
+	
+	</footer>
+</div>
+</body>
+</html>
